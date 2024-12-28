@@ -9,6 +9,12 @@
             "email": "bhagabatabehera30@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/bhagabatabehera30/laravel-ad-bs-date-conversion"
+        }
+    ],
     "require": {
 	"php": ">=5.5.9"
     },
