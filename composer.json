@@ -1,0 +1,23 @@
+{
+    "name": "bhagabat/adbsdate",
+    "description": "A simple package that converts from AD to BS and vice-versa.",
+    "keywords": ["AD to BS Date","BS to AD Date", "Hindi, Nepali, Date"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhagabat Behera",
+            "email": "bhagabatabehera30@gmail.com"
+        }
+    ],
+    "require": {
+	"php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bhagabat\\Adbsdate\\": "src/Adbsdate/"
+        },
+        "files": [
+            "src/Adbsdate/Support/AdbsLocalHelper.php"
+        ]
+    }
+}
